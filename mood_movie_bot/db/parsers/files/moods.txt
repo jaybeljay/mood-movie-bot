@@ -1,0 +1,9 @@
+giggly,comedy picks to keep your mood up
+naughty,choose this if you want something wicked and kinky
+dreamy,escape to surreal worlds
+nerdy,for those who'd like to solve puzzles
+relaxed,for those who wouldn't like to solve puzzles
+bored,taste something new
+stressed,comforting soup for your soul
+okay,it doesn't matter
+mad,feel like breaking something

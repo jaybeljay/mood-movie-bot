@@ -61,7 +61,6 @@ async def recommend_movie(message: types.Message):
         movie = get_movie_by_mood(command_mood[1:])
     except MoodDoesNotExist:
         return SendMessage(message.chat.id, "Sorry, I can't help. Try another mood.")
-        return
 
     return SendMessage(message.chat.id, movie)
     

@@ -19,7 +19,7 @@ WEBHOOK_PATH = HEROKU_TOKEN
 WEBHOOK_URL = f"{WEBHOOK_HOST}{WEBHOOK_PATH}"
 
 WEBAPP_HOST = 'localhost'
-WEBAPP_PORT = 3001
+WEBAPP_PORT = os.getenv('PORT', 5000)
 
 logging.basicConfig(level=logging.INFO)
 

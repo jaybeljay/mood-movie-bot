@@ -14,7 +14,7 @@ from mood_movie_bot.movie_advisor.exceptions import MoodDoesNotExist
 API_TOKEN = os.getenv('TELEGRAM_API_TOKEN')
 HEROKU_TOKEN = os.getenv('HEROKU_TOKEN')
 
-WEBHOOK_HOST = 'https://mood-movie-bot.herokuapp.com/'
+WEBHOOK_HOST = 'https://mood-movie-bot.herokuapp.com'
 WEBHOOK_PATH = HEROKU_TOKEN
 WEBHOOK_URL = f"{WEBHOOK_HOST}{WEBHOOK_PATH}"
 

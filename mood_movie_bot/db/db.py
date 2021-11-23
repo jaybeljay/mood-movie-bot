@@ -12,9 +12,9 @@ from sqlalchemy import select, insert
 
 from schema import moods_table, genres_table, movies_table, movies_genres
 
-from parsers.mood_parser import get_moods
-from parsers.genre_parser import get_genres
-from parsers.movie_parser import get_movie_id, get_movie_info
+from mood_movie_bot.db.parsers.mood_parser import get_moods
+from mood_movie_bot.db.parsers.genre_parser import get_genres
+from mood_movie_bot.db.parsers.movie_parser import get_movie_id, get_movie_info
 
 
 logging.basicConfig(level=logging.ERROR)

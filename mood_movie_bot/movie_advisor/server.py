@@ -7,8 +7,8 @@ from aiogram.dispatcher import Dispatcher
 from aiogram.dispatcher.webhook import SendMessage
 from aiogram.utils.executor import start_webhook
 
-from .services import get_mood_names, get_movie_by_mood
-from .exceptions import MoodDoesNotExist
+from mood_movie_bot.movie_advisor.services import get_mood_names, get_movie_by_mood
+from mood_movie_bot.movie_advisor.exceptions import MoodDoesNotExist
 
 
 API_TOKEN = os.getenv('TELEGRAM_API_TOKEN')
